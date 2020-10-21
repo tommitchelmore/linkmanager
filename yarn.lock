@@ -1327,6 +1327,11 @@
   resolved "https://registry.yarnpkg.com/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.4.0.tgz#becce788818d3f47f0ac1a74c3c061ac1dcf4f6d"
   integrity sha512-8cUA/mg0S+BxIZ72TdZRsXKBP5n5uRcE3k29TZhZw6oIiHBt9JA7CTb/4pE1uKtE/q5NeTY2tBDcagoZ+1zjXQ==
 
+"@geist-ui/react-icons@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@geist-ui/react-icons/-/react-icons-1.0.0.tgz#2b08f155a0d57549eb8456143e5d51b71b0a11f1"
+  integrity sha512-6mNGTLu+EDcyDmf2BLMqKbne3bNX9wbHl4YTSj4nVy4GaMvC8IAIXpxfhdTBBHiTZ1Bm3+9PxQqtyvJvYl0WXQ==
+
 "@geist-ui/react@^2.1.0-canary.1":
   version "2.1.0-canary.1"
   resolved "https://registry.yarnpkg.com/@geist-ui/react/-/react-2.1.0-canary.1.tgz#68a7a5458466799dfcb3f5458a4bf6f3ee2dc113"
@@ -1638,6 +1643,15 @@
     lodash.get "^4.4.2"
     render-and-add-props "^0.5.0"
 
+"@react-firebase/database@^0.3.11":
+  version "0.3.11"
+  resolved "https://registry.yarnpkg.com/@react-firebase/database/-/database-0.3.11.tgz#6367a249f6cd2d85b51b95c1883254d02c49f509"
+  integrity sha512-pVOILZwFShciopf/7CC/3rRAWcd1CQ5g0JPkhAWSiMP97fiUiaWtVrnBRtoWVY7kQqyF4G9ZyR/Wm43J9a3ZQA==
+  dependencies:
+    immer "^1.5.0"
+    lodash "^4.17.11"
+    render-and-add-props "^0.5.0"
+
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
@@ -1855,6 +1869,13 @@
   resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
   integrity sha512-EaObqwIvayI5a8dCzhFrjKzVwKLxjoG9T6Ppd5CEo07LRKfQ8Yokw54r5+Wq7FaBQ+yXRvQAYPrHwya1/UFt9g==
 
+"@types/firebase@^3.2.1":
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/@types/firebase/-/firebase-3.2.1.tgz#17c1c8fee7485ab09668d2461e34540bdf44b3b1"
+  integrity sha512-G8XgHMu2jHlElfc2xVNaYP50F0qrqeTCjgeG1v5b4SRwWG4XKC4fCuEdVZuZaMRmVygcnbRZBAo9O7RsDvmkGQ==
+  dependencies:
+    firebase "*"
+
 "@types/glob@^7.1.1":
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.1.1.tgz#aa59a1c6e3fbc421e07ccd31a944c30eba521575"
@@ -1863,6 +1884,11 @@
     "@types/events" "*"
     "@types/minimatch" "*"
     "@types/node" "*"
+
+"@types/history@*":
+  version "4.7.8"
+  resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.8.tgz#49348387983075705fe8f4e02fb67f7daaec4934"
+  integrity sha512-S78QIYirQcUoo6UJZx9CSP0O2ix9IaeAXwQi26Rhr/+mg7qqPy8TzaxHSUut7eGjL8WmLccT7/MXf304WjqHcA==
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
@@ -1953,6 +1979,23 @@
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.8.tgz#fe4c1e11dfc67155733dfa6aa65108b4971cb423"
   integrity sha512-ykkPQ+5nFknnlU6lDd947WbQ6TE3NNzbQAkInC2EKY1qeYdTKp7onFusmYZb+ityzx2YviqT6BXSu+LyWWJwcA==
   dependencies:
+    "@types/react" "*"
+
+"@types/react-router-dom@^5.1.6":
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.1.6.tgz#07b14e7ab1893a837c8565634960dc398564b1fb"
+  integrity sha512-gjrxYqxz37zWEdMVvQtWPFMFj1dRDb4TGOcgyOfSXTrEXdF92L00WE3C471O3TV/RF1oskcStkXsOU0Ete4s/g==
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
+    "@types/react-router" "*"
+
+"@types/react-router@*":
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-5.1.8.tgz#4614e5ba7559657438e17766bb95ef6ed6acc3fa"
+  integrity sha512-HzOyJb+wFmyEhyfp4D4NYrumi+LQgQL/68HvJO+q6XtuHSDvw6Aqov7sCAhjbNq3bUPgPqbdvjXC5HeB2oEAPg==
+  dependencies:
+    "@types/history" "*"
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^16.9.0":
@@ -5037,7 +5080,7 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firebase@^7.24.0:
+firebase@*, firebase@^7.24.0:
   version "7.24.0"
   resolved "https://registry.yarnpkg.com/firebase/-/firebase-7.24.0.tgz#dab53b9c0f1c9538d2d6f4f51769897b0b6d60d8"
   integrity sha512-j6jIyGFFBlwWAmrlUg9HyQ/x+YpsPkc/TTkbTyeLwwAJrpAmmEHNPT6O9xtAnMV4g7d3RqLL/u9//aZlbY4rQA==
@@ -5779,6 +5822,11 @@ immer@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/immer/-/immer-1.10.0.tgz#bad67605ba9c810275d91e1c2a47d4582e98286d"
   integrity sha512-O3sR1/opvCDGLEVcvrGTMtLac8GJ5IwZC4puPrLuRj3l7ICKvkmA0vGuU9OW8mV9WIBRnaxp5GJh9IEAaNOoYg==
+
+immer@^1.5.0:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-1.12.1.tgz#40c6e5b292c00560836c2993bda3a24379d466f5"
+  integrity sha512-3fmKM6ovaqDt0CdC9daXpNi5x/YCYS3i4cwLdTVkhJdk5jrDXoPs7lCm3IqM3yhfSnz4tjjxbRG2CziQ7m8ztg==
 
 import-cwd@^2.0.0:
   version "2.1.0"
@@ -9268,6 +9316,11 @@ react-error-overlay@^6.0.7:
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
+
+react-firebase-hooks@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-firebase-hooks/-/react-firebase-hooks-2.2.0.tgz#a2cea46d3da94619e8a316b85173638698ef7d2b"
+  integrity sha512-bwBaCYa8M+bpTqD0masAPGDTzxiTkGbyxv363hyR+NeNH1HbezPll6G7aMIGl+7OOYRPzfdmpkk72zc3VgXfEw==
 
 react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
